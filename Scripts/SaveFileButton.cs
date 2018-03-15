@@ -7,7 +7,7 @@ using DSA.Extensions.Base;
 
 public class SaveFileButton : UIButtonBase, ISettable<SaveFile>, ISendable<SaveFile>
 {
-	public override ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.UI; } }
+	public override ExtensionEnum Extension { get { return ExtensionEnum.UI; } }
 
 	public Action<SaveFile> SendAction { get; set; }
 

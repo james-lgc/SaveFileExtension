@@ -7,7 +7,7 @@ using DSA.Extensions.Base;
 
 public class SaveManager : SaveFileManager
 {
-	public override ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.Save; } }
+	public override ExtensionEnum Extension { get { return ExtensionEnum.Save; } }
 
 	public override void Initialize()
 	{

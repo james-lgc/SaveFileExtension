@@ -5,7 +5,7 @@ using DSA.Extensions.Base;
 
 public class LoadManager : SaveFileManager
 {
-	public override ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.Load; } }
+	public override ExtensionEnum Extension { get { return ExtensionEnum.Load; } }
 
 	public override void Initialize()
 	{
